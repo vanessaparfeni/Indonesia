@@ -434,7 +434,7 @@ span {
 .ggg {
     width: 100%;
     height: 249px;
-    margin-top: 70px;
+    margin-top: 90px;
     display: flex;
     align-items: flex-start;
     justify-content: space-evenly;
@@ -508,4 +508,27 @@ a {
 .ftr2,
 .ftr3 {
     font-size: 18px;
+}
+
+button {
+    background-color: white;
+    color: #fff;
+    border: 1px solid;
+    transition: all 0.4s ease-out;
+}
+
+button:hover,
+.button:focus {
+    /* background-color: rgb(255, 255, 255); */
+    color: #FFC978;
+    /* opacity: 0.8; */
+}
+
+a {
+    transition: all 0.5s ease-out;
+}
+      
+a:hover,
+a:focus {
+    color: #FFC978;
 }
