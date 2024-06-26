@@ -32,7 +32,7 @@ header {
 .left {
     width: 849px;
     height: 100%;
-    padding-top: 25px;
+    padding-top: 0px;
     padding-left: 100px;
     display: flex;
     flex-direction: column;
